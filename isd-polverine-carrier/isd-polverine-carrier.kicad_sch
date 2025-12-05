@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "27bbddde-1315-4a7b-91f8-52269d45b0e3")
+	(paper "A4")
+	(title_block
+		(title "Polverine Carrier Board")
+		(date "2025-11-28")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
