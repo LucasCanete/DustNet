@@ -15,3 +15,11 @@ is used to track some of the larger active components that are part of the elect
 - Cell Management Circuit (with MPPT)
 - 3V3 Power rail
 - Lora Powergate (res. GPIO + N-MOSFET)
+
+## Final Design Circuits
+
+TBD
+
+## BOM
+
+TBD
