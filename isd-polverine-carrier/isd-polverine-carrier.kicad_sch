@@ -1345,6 +1345,16 @@
 		)
 		(uuid f2837cd9-d217-41d1-90be-d0caf2b759c6)
 	)
+	(text "Subsheets"
+		(exclude_from_sim no)
+		(at 259.842 18.542 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7a5d31e6-47b3-42d5-bec8-08c612f2b07d")
+	)
 	(text "Battery Protection Circuit"
 		(exclude_from_sim no)
 		(at 32.258 140.716 0)
@@ -1466,6 +1476,16 @@
 			(type default)
 		)
 		(uuid "3b65db8e-bb49-4168-a366-4b910284a7dc")
+	)
+	(polyline
+		(pts
+			(xy 233.68 12.7) (xy 233.68 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1e403b-e437-4bb6-907e-d4882e6475ad")
 	)
 	(wire
 		(pts
@@ -2433,6 +2453,48 @@
 				(path "/27bbddde-1315-4a7b-91f8-52269d45b0e3"
 					(reference "#PWR02")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 31.75)
+		(size 31.75 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "643fe08e-0e69-4588-9af0-62691cdedc78")
+		(property "Sheetname" "battery"
+			(at 242.57 30.7844 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 242.57 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "isd-polverine-carrier"
+				(path "/27bbddde-1315-4a7b-91f8-52269d45b0e3"
+					(page "2")
 				)
 			)
 		)
