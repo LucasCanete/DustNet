@@ -2887,16 +2887,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1"
+		(symbol "Transistor_FET:DMG9926UDM"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 2.54 6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2904,8 +2903,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
-				(at 5.08 0 0)
+			(property "Value" "DMG9926UDM"
+				(at 2.54 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2913,25 +2912,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31770.pdf"
+				(at 2.54 -5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual NMOS transistor, 6 pin package"
+			(property "Description" "4.2A Id, 20V Vds, Common-Drain, Dual Half Bridge N-Channel MOSFET, 28mOhm Ron, SOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2940,7 +2942,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_keywords" "Dual Half Bridge N-Channel MOSFET Logic Level Common Drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2949,22 +2951,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "DMG9926UDM_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy -2.286 5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0)
@@ -2976,7 +2975,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy -2.286 3.175) (xy -2.286 6.985)
 					)
 					(stroke
 						(width 0.254)
@@ -2988,31 +2987,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+						(xy -1.778 6.858) (xy 0.762 6.858) (xy 0.762 3.302) (xy -1.778 3.302)
 					)
 					(stroke
 						(width 0)
@@ -3024,7 +2999,43 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy -1.778 6.35) (xy -1.778 7.366)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 4.572) (xy -1.778 5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.794) (xy -1.778 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.08) (xy -0.508 4.699) (xy -0.508 5.461) (xy -1.524 5.08)
 					)
 					(stroke
 						(width 0)
@@ -3035,7 +3046,7 @@
 					)
 				)
 				(circle
-					(center 1.651 0)
+					(center -0.889 5.08)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -3047,7 +3058,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 0 7.62) (xy 0 5.08) (xy -1.778 5.08)
 					)
 					(stroke
 						(width 0)
@@ -3058,7 +3069,7 @@
 					)
 				)
 				(circle
-					(center 2.54 1.778)
+					(center 0 6.858)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -3069,7 +3080,7 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.778)
+					(center 0 3.302)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -3081,7 +3092,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 0 -3.302) (xy 0 3.302)
 					)
 					(stroke
 						(width 0)
@@ -3093,7 +3104,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 0.254 4.572) (xy 0.381 4.699) (xy 1.143 4.699) (xy 1.27 4.826)
 					)
 					(stroke
 						(width 0)
@@ -3105,7 +3116,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 0.762 4.699) (xy 0.381 5.334) (xy 1.143 5.334) (xy 0.762 4.699)
 					)
 					(stroke
 						(width 0)
@@ -3116,29 +3127,175 @@
 					)
 				)
 			)
-			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			(symbol "DMG9926UDM_1_1"
+				(polyline
+					(pts
+						(xy -2.286 -3.175) (xy -2.286 -6.985)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 2.54 5.08 270)
+				(polyline
+					(pts
+						(xy -2.286 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.794) (xy -1.778 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -4.572) (xy -1.778 -5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -6.35) (xy -1.778 -7.366)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -6.858) (xy 0.762 -6.858) (xy 0.762 -3.302) (xy -1.778 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -5.08) (xy -0.508 -4.699) (xy -0.508 -5.461) (xy -1.524 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 -5.08)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -3.302)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -6.858)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -5.08) (xy -1.778 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -4.572) (xy 0.381 -4.699) (xy 1.143 -4.699) (xy 1.27 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -4.699) (xy 0.381 -5.334) (xy 1.143 -5.334) (xy 0.762 -4.699)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 5.08 0)
 					(length 2.54)
-					(name "D"
+					(name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3153,10 +3310,28 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -7.62 -5.08 0)
 					(length 2.54)
-					(name "S"
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "D1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3171,30 +3346,10 @@
 						)
 					)
 				)
-			)
-			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_2_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "D"
+					(name "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3210,16 +3365,35 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 0 180)
 					(length 2.54)
-					(name "S"
+					(name "S1/D2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "S1/D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4194,6 +4368,12 @@
 		(uuid "0c76d0b7-0888-447f-be35-f4d0537ff365")
 	)
 	(junction
+		(at 87.63 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fe5ea6b-5be0-4de0-85c4-501d1a677216")
+	)
+	(junction
 		(at 46.99 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4210,12 +4390,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30a0c6b9-723e-41b4-9354-6e70b65d15bd")
-	)
-	(junction
-		(at 46.99 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "337dca5a-75a1-4202-9b00-96c6900ba086")
 	)
 	(junction
 		(at 97.79 152.4)
@@ -4248,6 +4422,12 @@
 		(uuid "65f1bbd7-5d58-4ca3-ae15-fd9aa7f4f12f")
 	)
 	(junction
+		(at 46.99 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6985aac5-8690-43ac-b3a4-acedb466232e")
+	)
+	(junction
 		(at 97.79 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4270,12 +4450,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "870bf285-488e-403d-9292-6c0770659efb")
-	)
-	(junction
-		(at 87.63 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "961b68b1-e324-41f2-8e8d-dc08be46f392")
 	)
 	(junction
 		(at 160.02 107.95)
@@ -4345,6 +4519,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 181.61) (xy 57.15 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046c5bfe-e2f3-498f-8dfc-95f3c6a24fbe")
+	)
+	(wire
+		(pts
 			(xy 190.5 83.82) (xy 198.12 83.82)
 		)
 		(stroke
@@ -4352,16 +4536,6 @@
 			(type default)
 		)
 		(uuid "0a6fbac7-72b4-46fc-9f65-bea8b20e6bc3")
-	)
-	(wire
-		(pts
-			(xy 57.15 181.61) (xy 77.47 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7fb357-ef43-4261-bb4a-8146447bf931")
 	)
 	(wire
 		(pts
@@ -4522,16 +4696,6 @@
 			(type default)
 		)
 		(uuid "356e85e3-3baf-41b4-be22-ac87bb8eef2f")
-	)
-	(wire
-		(pts
-			(xy 69.85 173.99) (xy 82.55 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b65db8e-bb49-4168-a366-4b910284a7dc")
 	)
 	(wire
 		(pts
@@ -4865,13 +5029,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 173.99) (xy 64.77 173.99)
+			(xy 77.47 181.61) (xy 87.63 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98c10e82-9863-48a0-abf2-d68b8f7414aa")
+		(uuid "95f4baae-93cc-495a-a187-a96458f7323a")
 	)
 	(wire
 		(pts
@@ -5002,6 +5166,16 @@
 			(type default)
 		)
 		(uuid "b389e8ba-aff7-478a-8c0f-a1376870ceee")
+	)
+	(wire
+		(pts
+			(xy 69.85 173.99) (xy 72.39 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50f00b0-6280-4239-a7a0-ddd7b75f51de")
 	)
 	(wire
 		(pts
@@ -5142,6 +5316,16 @@
 			(type default)
 		)
 		(uuid "da645d97-47d3-4c3d-ba6e-697b7c69bcee")
+	)
+	(wire
+		(pts
+			(xy 62.23 173.99) (xy 64.77 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da77a0c6-efd2-4947-b653-145220d6d52e")
 	)
 	(wire
 		(pts
@@ -6054,6 +6238,89 @@
 			(project "isd-polverine-carrier"
 				(path "/27bbddde-1315-4a7b-91f8-52269d45b0e3"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMG9926UDM")
+		(at 67.31 181.61 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21a93e6c-38e5-435f-8911-32740e00189c")
+		(property "Reference" "Q1"
+			(at 54.102 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMG9926UDM"
+			(at 54.102 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 71.12 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31770.pdf"
+			(at 73.025 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.2A Id, 20V Vds, Common-Drain, Dual Half Bridge N-Channel MOSFET, 28mOhm Ron, SOT-23-6"
+			(at 67.31 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e5b95eae-1f57-4d69-8d7a-56ce6869e58f")
+		)
+		(pin "2"
+			(uuid "54ab6083-e4bd-493b-a9e5-0c62153228e9")
+		)
+		(pin "6"
+			(uuid "19bedeba-9a31-44b9-b2e4-dc4c14c69af3")
+		)
+		(pin "3"
+			(uuid "844ea7e5-9ee2-49bd-a4da-7ab47c308778")
+		)
+		(pin "1"
+			(uuid "ad8f6eb4-7b60-4350-9fbb-af94ac0196d9")
+		)
+		(pin "4"
+			(uuid "bddf9e22-126e-4060-bd93-15be9e0fd6eb")
+		)
+		(instances
+			(project ""
+				(path "/27bbddde-1315-4a7b-91f8-52269d45b0e3"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -7093,93 +7360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
-		(at 52.07 179.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5be7453d-118b-4775-8670-6a72d62f4671")
-		(property "Reference" "Q1"
-			(at 52.07 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
-			(at 46.482 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 52.07 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fi/datasheet/3/175/1/ds31770.pdf"
-			(at 52.07 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 52.07 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMG9926UDM-7"
-			(at 36.576 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58d7d1e5-a4fa-47fc-ad2e-05a7e18cc681")
-		)
-		(pin "6"
-			(uuid "33aeb540-912d-41bb-9565-9dcef58c95b4")
-		)
-		(pin "4"
-			(uuid "eaf5a67b-71ec-4d37-bd35-8c04a21c1c9e")
-		)
-		(pin "2"
-			(uuid "47655e56-478a-4aeb-8418-697a3a9e1b15")
-		)
-		(pin "5"
-			(uuid "bbd8da2a-efdc-4c1b-acf7-05c867fef251")
-		)
-		(pin "3"
-			(uuid "a187b7bf-439e-4672-a33e-deb11a0fe67b")
-		)
-		(instances
-			(project ""
-				(path "/27bbddde-1315-4a7b-91f8-52269d45b0e3"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 97.79 166.37 0)
 		(unit 1)
@@ -7501,94 +7681,6 @@
 				(path "/27bbddde-1315-4a7b-91f8-52269d45b0e3"
 					(reference "J12")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_Dual_NMOS_S1G1D2S2G2D1")
-		(at 82.55 179.07 90)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79515702-3296-4cf5-8246-c94e4c62f884")
-		(property "Reference" "Q1"
-			(at 82.55 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
-			(at 76.962 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
-			(at 82.55 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.fi/datasheet/3/175/1/ds31770.pdf"
-			(at 82.55 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 6 pin package"
-			(at 82.55 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "DMG9926UDM-7"
-			(at 66.802 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58d7d1e5-a4fa-47fc-ad2e-05a7e18cc682")
-		)
-		(pin "6"
-			(uuid "33aeb540-912d-41bb-9565-9dcef58c95b5")
-		)
-		(pin "4"
-			(uuid "eaf5a67b-71ec-4d37-bd35-8c04a21c1c9f")
-		)
-		(pin "2"
-			(uuid "47655e56-478a-4aeb-8418-697a3a9e1b16")
-		)
-		(pin "5"
-			(uuid "bbd8da2a-efdc-4c1b-acf7-05c867fef252")
-		)
-		(pin "3"
-			(uuid "a187b7bf-439e-4672-a33e-deb11a0fe67c")
-		)
-		(instances
-			(project ""
-				(path "/27bbddde-1315-4a7b-91f8-52269d45b0e3"
-					(reference "Q1")
-					(unit 2)
 				)
 			)
 		)
