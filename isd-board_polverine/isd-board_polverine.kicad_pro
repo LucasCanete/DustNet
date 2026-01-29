@@ -456,7 +456,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "isd-polverine-carrier.kicad_pro",
+    "filename": "isd-board_polverine.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -673,6 +673,10 @@
     [
       "27bbddde-1315-4a7b-91f8-52269d45b0e3",
       "Root"
+    ],
+    [
+      "d5b517d9-3722-4b47-8498-b1e158ecafff",
+      "MPPT Solar Charger"
     ]
   ],
   "text_variables": {}
