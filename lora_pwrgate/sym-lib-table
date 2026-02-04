@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lora")(type "KiCad")(uri "/home/arch_matias/assembly/new/smart_remote/lora-e5.kicad_sym")(options "")(descr ""))
+  (lib (name "oled")(type "KiCad")(uri "/home/arch_matias/assembly/new/smart_remote/OLED.kicad_sym")(options "")(descr ""))
+)
