@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CN3791")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/CN3791.kicad_sym")(options "")(descr "Solar Charger Controller with MPPT"))
+  (lib (name "CON_5035661302_MOL")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/CON_5035661302_MOL.kicad_sym")(options "")(descr ""))
+  (lib (name "Supply_components")(type "KiCad")(uri "${KIPRJMOD}/Supply_components.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-02-14_15-01-59")(type "KiCad")(uri "/Users/privat/Downloads/ul_LT8640AJUDCM-TRPBF/KiCADv6/2026-02-14_15-01-59.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2113APW")(type "KiCad")(uri "/Users/privat/Downloads/LIB_TPS2113APW/TPS2113APW/KiCad/TPS2113APW.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP73871-2CCI_ML")(type "KiCad")(uri "/Users/privat/Downloads/LIB_MCP73871-2CCI_ML/MCP73871-2CCI_ML/KiCad/MCP73871-2CCI_ML.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66100DCKT")(type "KiCad")(uri "/Users/privat/Downloads/LIB_LM66100DCKT/LM66100DCKT/KiCad/LM66100DCKT.kicad_sym")(options "")(descr ""))
+)
